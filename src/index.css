@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Inter:wght@300;600;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.description-label {
+    font-weight: bold;
+    color: white;
+  }
+  
+  .descriptions-item {
+    font-weight: normal;
+    color: white; /* Ensures that the value text is white */
+  }
+
+  :where(.css-dev-only-do-not-override-1c0na6j).ant-tabs .ant-tabs-tab-btn{
+    color: white !important;
+  }
+
+  /* In your CSS file */
+.ads-container {
+  width: 300px;
+  height: 250px;
+}
